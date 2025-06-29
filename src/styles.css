@@ -64,9 +64,30 @@ footer {
   color: rgba(0, 0, 0, 0.6);
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .container {
     max-width: 320px;
     width: 75%;
+    padding-bottom: 0;
+  }
+
+  .city {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .city-date-and-time {
+    margin-bottom: 1rem;
+  }
+
+  .time {
+    font-size: 44px;
+    font-weight: bold;
+  }
+
+  footer {
+    font-size: 15px;
   }
 }
