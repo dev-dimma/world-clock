@@ -5,6 +5,7 @@ body {
 
 .container {
   max-width: 600px;
+  width: 80%;
   margin: 60px auto;
   background: white;
   padding: 30px;
@@ -64,10 +65,11 @@ footer {
   color: rgba(0, 0, 0, 0.6);
 }
 
-@media (max-width: 320px) {
+@media (max-width: 481px) {
   .container {
-    max-width: 320px;
-    width: 75%;
+    max-width: 481px;
+    width: 80%;
+    margin: 15rem auto;
     padding-bottom: 0;
   }
 
@@ -89,5 +91,8 @@ footer {
 
   footer {
     font-size: 15px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -10rem;
   }
 }
