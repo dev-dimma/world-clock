@@ -69,7 +69,6 @@ footer {
   .container {
     max-width: 481px;
     width: 80%;
-    margin: 15rem auto;
     padding-bottom: 0;
   }
 
@@ -93,6 +92,5 @@ footer {
     font-size: 15px;
     width: 80%;
     margin: 0 auto;
-    margin-top: -10rem;
   }
 }
